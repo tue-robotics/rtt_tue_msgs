@@ -13,5 +13,5 @@ ros_generate_rtt_service_proxies(tue_msgs)
 
 orocos_generate_package(
   DEPENDS tue_msgs
-  DEPENDS_TARGETS rtt_roscomm rtt_std_msgs rtt_geometry_msgs
+  DEPENDS_TARGETS rtt_roscomm rtt_geometry_msgs rtt_std_msgs
 )
